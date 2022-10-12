@@ -1,0 +1,20 @@
+# Project specific
+/node_modules/
+/build/
+/logs/
+/coverage/
+.env
+/src/styles/app.css
+
+# Other
+*.log
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.idea
+*.iml
+.vscode
+*.swp
+*.swo
+*~
+*.pyc

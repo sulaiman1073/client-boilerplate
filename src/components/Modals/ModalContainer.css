@@ -1,0 +1,37 @@
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 0.05s ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ModalManager--modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  /* this is what centers your element in the fixed wrapper*/
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center; /* aligns on vertical for column */
+  align-items: center; /* aligns on horizontal for column */
+
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+}
+
+.ReactModal__Body--open {
+  overflow-y: auto;
+}
+
+.h-75vh {
+  max-height: 90vh;
+}

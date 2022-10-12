@@ -1,0 +1,21 @@
+version: 0.2
+
+env:
+  variables:
+    DISTRIBUTION_ID: $DISTRIBUTION_ID
+
+phases:
+  pre_build:
+    commands:
+      - npm install
+  build:
+    commands:
+      - npm run build
+  post_build:
+    commands:
+      - aws cloudfront create-invalidation --distribution-id $DISTRIBUTION_ID --paths '/*'
+artifacts:
+  files:
+    - "**/*"
+  discard-paths: no
+  base-directory: build
