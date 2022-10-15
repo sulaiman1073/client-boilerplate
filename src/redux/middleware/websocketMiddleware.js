@@ -44,7 +44,7 @@ import { WS_EVENTS } from "../../helpers/constants";
 const wsUrl =
   process.env.NODE_ENV !== "production"
     ? "ws://localhost:5000"
-    : `wss://ws.popitalk.com`;
+    : `wss://ws.somewhere.com`;
 
 let socket;
 // Timeout for heartbeat(), if it runs out, the socket is closed.

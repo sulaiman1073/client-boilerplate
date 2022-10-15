@@ -7,9 +7,9 @@ import Button from "../Controls/Button";
 export default function FriendRequests({ friendRequests, ...rest }) {
   return (
     <DropDownContainer>
-      <ContainerHeader title={strings.aboutPopitalk} />
+      <ContainerHeader title={strings.aboutSomething} />
       <div className="flex flex-col justify-center items-center h-auto w-full bg-primaryBackground py-2">
-        <a href="https://twitter.com/PopitalkT" className="w-full px-4">
+        <a href="https://twitter.com/abc" className="w-full px-4">
           <Button
             styleNone
             styleNoneContent={strings.twitter}
@@ -18,7 +18,7 @@ export default function FriendRequests({ friendRequests, ...rest }) {
           />
         </a>
         <a
-          href="https://www.youtube.com/channel/UCJSjPolz6SiYKvVxFmK-Z1A"
+          href="https://www.youtube.com/channel/something"
           className="w-full px-4"
         >
           <Button
@@ -36,7 +36,7 @@ export default function FriendRequests({ friendRequests, ...rest }) {
             className="py-2 hover:bg-highlightBackground rounded-lg duration-75 w-full"
           />
         </a>
-        <a href="https://about.popitalk.com/" className="w-full px-4">
+        <a href="https://about.something.com/" className="w-full px-4">
           <Button
             styleNone
             styleNoneContent={strings.sendFeedbackButton}

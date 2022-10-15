@@ -18,7 +18,7 @@ export default function WelcomeVideo({ id }) {
           className="rounded-circle"
         >
           <source
-            src="https://popitalk-s3.s3.us-east-2.amazonaws.com/popitalkvideo-88btdo7q-lsr1_EaKU776R.compressed.mp4"
+            src="https://video.com/video.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag. Please upgrade your

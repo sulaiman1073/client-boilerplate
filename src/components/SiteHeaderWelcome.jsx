@@ -31,8 +31,8 @@ export default function SiteHeaderWelcome({
           imageButton
           imageButtonSrc={Logo}
           imageButtonClassName="w-8 h-8 mr-2"
-          imageButtonSpan="Popitalk"
-          analyticsString="Popitalk Logo Button: SiteHeaderWelcome"
+          imageButtonSpan="Something"
+          analyticsString="Something Logo Button: SiteHeaderWelcome"
         />
         <Button
           styleNone
@@ -58,7 +58,7 @@ export default function SiteHeaderWelcome({
             imageButton
             imageButtonSrc={Logo}
             imageButtonClassName="w-12 h-12 hover:scale-105"
-            imageButtonSpan="Popitalk"
+            imageButtonSpan="Something"
             imageButtonSpanClassName="md:ml-2 md:text-2xl // sm:text-xl sm:ml-1 // flex ml-1 text-2xl"
             analyticsString="Logo Button: SiteHeaderWelcome"
           />

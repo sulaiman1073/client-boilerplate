@@ -11,15 +11,15 @@ function Footer() {
             <li>
               <a
                 className="text-tertiaryText no-underline"
-                href="https://about.popitalk.com/"
+                href="https://about.something.com/"
               >
-                {strings.aboutPopitalk}
+                {strings.aboutSomething}
               </a>
             </li>
             <li>
               <a
                 className="text-tertiaryText no-underline"
-                href="https://medium.com/popitalk"
+                href="https://medium.com/something"
               >
                 {strings.blog}
               </a>
@@ -27,7 +27,7 @@ function Footer() {
             <li>
               <a
                 className="text-tertiaryText no-underline"
-                href="https://about.popitalk.com/"
+                href="https://about.something.com/"
               >
                 {strings.contact}
               </a>
@@ -35,7 +35,7 @@ function Footer() {
             <li>
               <a
                 className="text-tertiaryText no-underline"
-                href="https://www.saashub.com/popitalk-status"
+                href="https://www.saashub.com"
               >
                 Status Page
               </a>
@@ -48,7 +48,7 @@ function Footer() {
             <li>
               <a
                 className="text-tertiaryText no-underline"
-                href="https://medium.com/popitalk/end-user-license-agreement-and-terms-of-service-dc8a25c0f5d2?source=friends_link&sk=2150df3f6e097d60599c30a5d3e8942a"
+                href="https://medium.com"
               >
                 {strings.termsOfUse}
               </a>
@@ -56,7 +56,7 @@ function Footer() {
             <li>
               <a
                 className="text-tertiaryText no-underline"
-                href="https://medium.com/popitalk/privacy-policy-ab89684edca6?source=friends_link&sk=555c056e49c784af16481f96f8dcbfe3"
+                href="https://medium.com/something"
               >
                 {strings.privacyPolicy}
               </a>
@@ -64,7 +64,7 @@ function Footer() {
             <li>
               <a
                 className="text-tertiaryText no-underline"
-                href="https://medium.com/popitalk/copyright-policy-872f41dd7856?sk=38c4ab2d90555ed5ee6fe85373e06584"
+                href="https://medium.com/something"
               >
                 {strings.copyright}
               </a>
@@ -77,7 +77,7 @@ function Footer() {
             <li>
               <a
                 className="text-tertiaryText no-underline"
-                href="https://discord.gg/hdFfgg7"
+                href="https://discord.gg/something"
               >
                 {strings.discord}
               </a>
@@ -85,7 +85,7 @@ function Footer() {
             <li>
               <a
                 className="text-tertiaryText no-underline"
-                href="https://twitter.com/PopitalkT"
+                href="https://twitter.com/something"
               >
                 {strings.twitter}
               </a>
@@ -93,7 +93,7 @@ function Footer() {
             <li>
               <a
                 className="text-tertiaryText no-underline"
-                href="https://www.youtube.com/channel/UCJSjPolz6SiYKvVxFmK-Z1A"
+                href="https://www.youtube.com/something"
               >
                 {strings.youtube}
               </a>
@@ -101,7 +101,7 @@ function Footer() {
             <li>
               <a
                 className="text-tertiaryText no-underline"
-                href="https://www.facebook.com/popitalk"
+                href="https://www.facebook.com/something"
               >
                 {strings.facebook}
               </a>
@@ -110,7 +110,7 @@ function Footer() {
         </div>
       </div>
       <div className="flex justify-end text-xs mt-12">
-        <p>© 2020 Popitalk, Inc. All rights reserved.</p>
+        <p>© 2020 Something, Inc. All rights reserved.</p>
       </div>
     </footer>
   );

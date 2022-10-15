@@ -26,7 +26,7 @@ if (process.env.NODE_ENV === "production") {
   Sentry.init({
     dsn:
       "https://bdb64d6f5f1642029a8da88bb764cbca@o433742.ingest.sentry.io/5389541",
-    release: "Popitalk" + process.env.npm_package_version,
+    release: "release123" + process.env.npm_package_version,
     integrations: [new ApmIntegrations.Tracing()],
     tracesSampleRate: 1.0 // Be sure to lower this in production
   });

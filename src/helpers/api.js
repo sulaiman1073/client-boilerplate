@@ -7,7 +7,7 @@ const axiosConfig =
         withCredentials: true
       }
     : {
-        baseURL: "https://api.popitalk.com",
+        baseURL: "https://api.somewhere.com",
         withCredentials: true
       };
 

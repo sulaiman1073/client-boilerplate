@@ -113,7 +113,7 @@ export default function NewChannelPost({
             autoFocus
             // Bellow options can be used to adjust what is shown in the footer by default.
             // emoji="eyes"
-            // title="  Popitalk"
+            // title="  something"
             // Uses the native set of emojis, so nothing needs to be downloaded. To make all our
             // wanted emojis available on any device we should provide our own sheet, or use the one
             // provided by emoji mart.

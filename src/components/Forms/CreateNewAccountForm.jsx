@@ -94,7 +94,7 @@ export default function CreateNewAccountForm({ handleSubmit, error, loading }) {
                 {strings.createNewAccountTerms}{" "}
                 <a
                   className="no-underline"
-                  href="https://medium.com/popitalk/end-user-license-agreement-and-terms-of-service-dc8a25c0f5d2?source=friends_link&sk=2150df3f6e097d60599c30a5d3e8942a"
+                  href="https://medium.com/something"
                 >
                   {strings.createNewAccountTerms1}
                 </a>

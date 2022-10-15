@@ -23,7 +23,7 @@ import {
 export default function InviteForm({ link }) {
   const ref = createRef();
   const currentUrl = window.location.href;
-  const title = "Join me on @Popitalk";
+  const title = "Join me on @Something";
   const iconClassname =
     "focus:outline-none transform transition hover:scale-105 duration-75 ease-in-out";
 

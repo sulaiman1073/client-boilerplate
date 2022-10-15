@@ -173,7 +173,7 @@ export default function SiteHeaderMain({
           <li className="hidden lg:block">
             <DropDownControls
               icon="info-circle"
-              analyticsString="To about.popitalk Button: SiteHeaderMain"
+              analyticsString="To about.something Button: SiteHeaderMain"
             >
               <FeedbackDropDown />
             </DropDownControls>

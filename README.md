@@ -1,30 +1,30 @@
-# popitalk-client
+# client-boilerplate
 
 ## Info
-`@popitalk/popitalk-client` is the primary web client for interacting with: 
+`@sulaiman1073/client-boilerplate` is the primary web client for interacting with: 
 
-* [`@popitalk/popitalk-server-api`](https://github.com/Popitalk/popitalk-server-api)
-* [`@popitalk/popitalk-server-ws`](https://github.com/Popitalk/popitalk-server-ws)
+* [`@sulaiman1073/api-boilerplate`](https://github.com/sulaiman1073/api-boilerplate)
+* [`@sulaiman1073/ws-boilerplate`](https://github.com/sulaiman1073/ws-boilerplate)
 
 You can watch a demo [here](https://placeholder.youtube.com).
 
 ## Codebase
-The codebase for `popitalk-client` is written in React with [Tailwindcss](https://tailwindcss.com/) and Redux.js.
+The codebase for `client-boilerplate` is written in React with [Tailwindcss](https://tailwindcss.com/) and Redux.js.
 
 ### First time setup
 To run the repository locally:
 
 ```
-git clone https://github.com/Popitalk/popitalk-client
+git clone https://github.com/sulaiman1073/client-boilerplate
 npm install
 npm start
 ```
 
 #### Installation
-*Important* The following services need to be set up for `@popitalk/popitalk-client` to function:
+*Important* The following services need to be set up for `@sulaiman1073/client-boilerplate` to function:
 
-* [`@popitalk/popitalk-server-api`](https://github.com/Popitalk/popitalk-server-api)
-* [`@popitalk/popitalk-server-ws`](https://github.com/Popitalk/popitalk-server-ws)
+* [`@sulaiman1073/api-boilerplate`](https://github.com/sulaiman1073/api-boilerplate)
+* [`@sulaiman1073/ws-boilerplate`](https://github.com/sulaiman1073/ws-boilerplate)
 
 #### Checklist
 
@@ -34,7 +34,7 @@ npm start
 
 ### Folder Structure
 ```
-popitalk/popitalk-client/
+sulaiman1073/client-boilerplate/
 ├── components # The core components
 ├── containers # placeholder explanation
 ├── helpers # placeholder explanation
